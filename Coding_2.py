@@ -1,5 +1,5 @@
 # DISCLAIMER
-# Program by: Ghilman Al Fatih
+# Program by: ghilman27
 # Not really a good code because of too much iteration
 
 # ------------ DEFINE FUNCTION ------------
