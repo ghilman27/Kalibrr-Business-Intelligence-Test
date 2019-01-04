@@ -1,0 +1,62 @@
+K-script
+
+K-script is a high-level programming language that:
+Is strongly typed
+Is statically typed
+Has no pointers
+Has no first-class functions
+
+
+The following snippets demonstrate the usage of K-script:
+
+ 
+# This is a comment that extends to the end of this line
+int a
+a = 5
+int b = 5
+
+#Arrays:
+#Arrays are zero-indexed, so the first element is at index 0, the second at index 1, etc.
+int[] b # This declares a variable, b, that is an array of 'int's
+b = int[5]
+b = [10,20,30,40,50] # This creates an array with the initial values
+print(len(b) == 5) # This prints "true"
+print(b[2]) # This prints "30"
+b = int[4][4] # This creates a 2D array
+
+#Loops:
+while <condition>
+end
+ 
+#Conditionals:
+if <condition>
+else if <condition>
+else
+end
+ 
+#Functions:
+function example(int a, int b) returns int
+    return a+b
+end
+
+#Operators:
+Normal arithmetic operators: +, -, *, /, %
+Comparison operators: >, <, ==, !=, >=, <=
+String operators: +
+Logical operators: and, or, not
+Assignment operator: =
+No shortcut operators (+=, -=, ++, --)
+Operator precedence follows the conventions of C, C++, Java, Python, Javascript, and Ruby.
+ 
+
+#String literals:
+Double quotes only. (e.g. "This is a string")
+Escapable characters are \n and \" (e.g. "Hello \"world\"!\n")
+ 
+
+#I/O:
+print (Python-like but no newline or space)
+readInt() - Works like Java's Scanner.nextInt(), i.e. gets the next token and parses it into an int
+readLine() - Reads the input until the nearest '\n' character (and including the '\n'), or until the end of input if there's more '\n' in the input
+readFloat()
+readBool()
