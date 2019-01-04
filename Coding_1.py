@@ -1,3 +1,6 @@
+# DISCLAIMER
+# Created by: ghilman27
+
 # ------------- DEFINE FUNCTION ---------------
 def div3(A,B,K):
     value = A
