@@ -1,5 +1,5 @@
 # DISCLAIMER
-# Created by Ghilman Al Fatih
+# Created by ghilman27
 
 # Function to determine whether a block should be visited or not
 def isSafe(Map, i, j, visited): 
